@@ -1,0 +1,629 @@
+*{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        .navigation{
+            position: relative ;
+            top: 0;
+            /* width: 100%; */
+            padding-left: 80px;
+            padding-top: 55px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            grid-template-columns: repeat(3, 2fr);
+            gap: 30px;
+            /* padding-bottom: 100px; */
+        }
+        .nav-bar{
+            font-family: 'Montserrat';
+            padding-top: 8px;
+            font-size: 16px;
+            padding-left: 250px;
+           display: flex;
+           gap: 60px;
+           align-content: center;
+        }
+        .img1{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Jevelin_logo_dark.png);
+            height: 25px;
+            width: 97px;
+            font-size: 200px;
+        }
+        .nav{
+            text-align: center;
+        }
+        .nav:hover{
+            color: orangered;
+        }
+        .icon-bar{
+            display: flex;
+            gap: 30px;
+            padding-left: 150px;
+        }
+        .icon{
+            font-size: 20px;
+            padding-top: 5px;
+            padding-left: 0px;
+        }
+        .icon-link{
+            color: rgb(16, 15, 15);
+        }
+        .icon-link:hover{
+            color: orangered;
+        }
+        .block-1{
+            padding-top: 100px;
+            padding-left: 80px;
+            display: inline-block;
+        }
+        .container-1{
+            height: 780px;
+            width: 650px;
+            background-color: rgb(234, 233, 233);
+            padding-left: 35px;
+            padding-top: 100px;
+            display: inline-block;
+        }
+        .new-collection{
+           font-family: 'Montserrat';
+            font-size: 18px;
+            background-color: black;
+            width: 170px;
+            height: 40px;
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+           padding-top: 8px;
+        }
+        .line-1{
+            padding-top: 50px;
+           font-family: 'Montserrat';
+            font-size: 60px;
+        }
+        .line-2{
+           font-family: 'Montserrat';
+            font-size: 60px;
+        }
+        .line-3{
+            color: rgb(130, 130, 130);
+            padding-top: 50px;
+            font-family: 'Montserrat';
+            font-size: 20px;
+            
+        }
+        .arrow {
+        border: solid black;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 4px;
+        }
+        .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        }
+        .explore{
+            font-family: 'Montserrat';
+            padding-top: 250px;
+            font-size: 17px;
+        }
+        .explore:hover{
+            color: orangered;
+        }
+        .down:hover{
+            color: orangered;
+        }
+        .img2{
+        background-image:url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/inside-weather-E5lK_COkD2E-unsplash-copy.jpg);
+        width: 700px;
+        height: 678px;
+        
+        display: inline-block;
+
+        }
+        .discount{
+            font-family: 'Montserrat';
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+            color: #5f5e5e;
+        }
+        .line {
+        width: 89%;
+        /* height: 0; */
+        border: 1px solid #C4C4C4;
+        margin: 80px;
+        }
+        .main-menu{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .img3{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-673.jpg?id=495);
+            height: 505px;
+            width: 380px;
+        }
+        .img4{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-675-copy-2.jpg?id=497);
+            height: 505px;
+            width: 380px;
+        }
+        .img5{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-674.jpg?id=496);
+            height: 505px;
+            width: 380px;
+        }
+        .new-collection-1{
+            font-family: 'Montserrat';
+            font-size: 18px;
+            background-color: black;
+            width: 170px;
+            height: 40px;
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+           padding-top: 8px;
+        }
+        .placement{
+            display: flex;
+            justify-content: center;
+            padding-top: 130px ;
+        }
+        .lights{
+            display: flex;
+            justify-content: center;
+            font-family: 'Montserrat';
+           padding-top: 30px;
+           font-size: 40px;
+        }
+        .decor{
+            display: flex;
+            justify-content: center;
+            font-family: 'Montserrat';
+           padding-top: 5px;
+           font-size: 40px;
+        }
+        .show-more{
+            font-family: 'Montserrat';
+            display: flex;
+            justify-content: center;
+            font-size: 19px;
+            padding-top: 55px;
+        }
+        .show-more:hover{
+            color: orangered;
+        }
+        .Kitchen{
+            display: flex;
+            justify-content: center;
+            font-family: 'Montserrat';
+           padding-top: 200px;
+           font-size: 40px;
+        }
+        .sale{
+            font-family: 'Montserrat';
+            font-size: 18px;
+            background-color: orangered;
+            width: 100px;
+            height: 40px;
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+           padding-top: 8px;
+        }
+        .partners{
+            padding-top: 70px;
+            display: flex;
+            gap: 90px;
+            justify-content: center;
+        }
+        .img6{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Partners6-copy.png);
+            height:35px;
+            width: 61px;
+        }
+        .img7{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Partners1-copy.png);
+            height:30px;
+            width: 108px;
+        }
+        .img8{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Partners4-copy.png);
+            height:34px;
+            width: 111px;
+        }
+        .img9{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Partners2-copy.png);
+            height:32px;
+            width: 90px;
+        }
+        .img10{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Partners3-copy.png);
+            height:60px;
+            width: 56px;
+        }
+        .img11{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Partners5-copy.png);
+            height:26px;
+            width: 120px;
+        }
+        .background{
+            display: flex;
+            padding-left: 300px;
+            padding-top: 150px;
+            background-color: #c3c0c033;
+            height: 670px;
+            width: 100%;
+            padding-top: 80px;
+        }
+        .img12{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Ellipse-622-copy-3.png);
+            height: 590px;
+            width: 300px;
+        }
+        .special-offer{
+            padding-top: 120px;
+            font-family: 'Montserrat';
+            font-size: 30px;
+            padding-left: 200px;
+        }
+        .para1{
+            padding-top: 50px;
+           font-family: 'Montserrat';
+    font-size: 35px;
+            padding-left: 200px;
+        }
+        .para2{
+              padding-top: 10px;
+           font-family: 'Montserrat';
+            font-size: 35px;
+            padding-left: 200px;
+            
+        }
+        .para3{
+              padding-top: 10px;
+           font-family: 'Montserrat';
+       font-size: 35px;
+            padding-left: 200px;
+        }
+        .Purchase{
+            font-family: 'Montserrat';
+            background-color: black;
+            color: white;
+            height: 45px;
+            font-size: 20px;
+            width: 150px;
+            text-align: center;
+            padding-top: 9px;
+        }
+        .Purchase1{
+            padding-top: 100px;
+            padding-left: 200px;
+        }
+        .move{
+            padding-top: 50px;
+        }
+        .Purchase:hover{
+            background-color: orangered;
+        }
+        .process{
+            padding-left: 10px;
+            padding-top: 50px;
+        }
+        .time-icon{
+            padding-left: 110px;
+            font-size: 60px;
+            color: #c9c8c8;
+            
+        }
+        .shipping{
+            font-family: 'Montserrat';
+            font-size: 20px;
+            padding-left: 70px;
+            padding-top: 20px;
+            
+        }
+        .text{
+            font-family: 'Montserrat';
+            padding-left: 30px;
+            padding-top: 20px;
+         
+        }
+        .text1{
+            font-family: 'Montserrat';
+            padding-top: 5px;
+        }
+        .text2{
+            font-family: 'Montserrat';
+            padding-left: 30px;
+            padding-top: 5px;
+            
+        }
+        .delivery{
+            padding-left: 10px;
+            padding-top: 50px;
+            
+        }
+        .truck{
+            font-family: 'Montserrat';
+            font-size: 20px;
+            padding-left: 70px;
+            padding-top: 20px;
+            
+        }
+        .text3{
+            font-family: 'Montserrat';
+            padding-left: 30px;
+            padding-top: 20px;
+            
+        }
+        .text4{
+             font-family: 'Montserrat';
+            padding-top: 5px;
+
+        }
+        .text5{
+             font-family: 'Montserrat';
+            padding-left: 30px;
+            padding-top: 5px;
+
+        }
+        .wallet{
+             padding-left: 10px;
+            padding-top: 50px;
+        }
+        .text6{
+            font-family: 'Montserrat';
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+        .text7{
+            font-family: 'Montserrat';
+            padding-top: 5px;
+
+
+        }
+        .text8{
+             font-family: 'Montserrat';
+            padding-left: 30px;
+            padding-top: 5px;
+
+        }
+        .wallet1{
+             font-family: 'Montserrat';
+            font-size: 20px;
+            padding-left: 5px;
+            padding-top: 20px;
+        }
+        .upto{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+         .vertical{
+      border: 1px solid #C4C4C4;
+      height: 250px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+        }
+        .heading{
+            display: flex;
+            padding-top: 10px;
+            padding-bottom: 50px;
+           font-family: 'Montserrat';
+       font-size: 35px;
+       justify-content: center;
+
+        }
+        .block-2{
+            /* display: flex; */
+            /* justify-content: center; */
+            padding-left: 100px;
+        }
+        .img13{
+            background-image: url(https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Hue_Saturation-2.jpg);
+            height: 590px;
+            width: 1200px;
+        }
+        .location-para{
+            font-family: 'Montserrat';
+             font-size: 25px;
+             padding-left: 100px;
+             padding-top: 70px;
+             display: inline-block;
+             padding-right: 580px;
+        }
+        .location-para1{
+            font-family: 'Montserrat';
+             font-size: 17px;
+             padding-left: 100px;
+             padding-top: 5px;
+              /* display: inline-block; */
+         }
+        .location-para2{
+             font-family: 'Montserrat';
+             font-size: 17px;
+             padding-left: 100px;
+             padding-top: 5px;
+        } 
+        .find-now{
+            border-radius: 5px;
+            font-family: 'Montserrat';
+            background-color: black;
+            color: white;
+            height: 45px;
+            font-size: 20px;
+            width: 150px;
+            text-align: center;
+            padding-top: 9px;
+            display: inline-block;
+
+        }
+        .find-now:hover{
+            background-color: orangered;
+        }
+        .great-deals{
+            text-align: center;
+             padding-top: 70px;
+        }
+
+        .deals{
+            font-family: 'Montserrat';
+            font-size: 35px;
+        }
+
+        div.gallery {
+        border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+        border: 1px solid #777;
+        }
+
+        div.gallery img {
+        width: 100%;
+        height: auto;
+        }
+
+        div.desc {
+        font-family: 'Montserrat';
+        padding: 15px;
+        text-align: center;
+        }
+        div.desc1{
+            text-align: center;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 21.40%;
+        }
+
+        .block-3{
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        .line-10{
+            width: 89%;
+        /* height: 0; */
+        border: 1px solid #C4C4C4;
+        margin: 80px;
+        }
+        .newsletter{
+            font-family: 'Montserrat';
+            font-size: 35px;
+            text-align: center;
+            
+        }
+        .newsletter-para{
+            font-family: 'Montserrat';
+            color: #777;
+            text-align: center;
+            padding-top: 5px;
+        }
+        .email{
+            padding-top: 40px;
+            text-align: center;
+            font-family: 'Montserrat';
+        }
+        .email-size{
+            font-family: 'Montserrat';
+            height: 40px;
+            width: 450px;
+        }
+        .Subscribe{
+            font-family: 'Montserrat';
+            background-color: black;
+            color: white;
+            height: 45px;
+            font-size: 20px;
+            width: 150px;
+            text-align: center;
+            padding-top: 9px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .Subscribe:hover{
+            background-color: orangered;
+        }
+        .footer1{
+            padding-top: 50px;
+        }  
+
+        .footer{
+            height: 600px;
+            background-color:  #e5e2e2;
+        }
+        .payment{
+            
+            padding-top: 110px;
+            font-family: 'Montserrat';
+            font-size: 17px;
+            padding-bottom: 20px;
+        }
+        .payment-para{
+             font-family: 'Montserrat';
+             font-size: 14px;
+             padding-top: 10px;
+        }
+        .payment-logo{
+            display: flex;
+            gap: 10px;
+            padding-top: 50px;
+        }
+        .lock-icon{
+            font-family: 'Montserrat';
+            padding-top: 20px;
+            font-size: 14px;
+        }
+        .SHOPPING-1{
+            display: inline-block;
+        }
+        .shop-guide{
+            font-family: 'Montserrat';
+            padding-top: 15px;
+            font-size: 14px;
+        }
+        .shop-guide-color{
+             font-family: 'Montserrat';
+            color: black;
+            text-decoration: none;
+        }
+
+        .COMPANY-1{
+             font-family: 'Montserrat';
+            padding-left: 200px;
+            display: inline-block;
+            padding-top: 10px;
+        }
+       .payment-1{
+         font-family: 'Montserrat';
+        display: inline-block;
+       }
+       .SHOPPING-1{
+         font-family: 'Montserrat';
+        padding-left: 200px;
+       }
+       .Copyright{
+        font-family: 'Montserrat';
+        font-size: 12px;
+        text-align: center;
+       }
+
+
+
+
+
+
+
